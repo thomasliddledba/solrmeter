@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Solr Meter Configuration File. Generated at May 29, 2018</comment>
+<entry key="executor.queryExecutor">random</entry>
+<entry key="solr.load.deletesperminute"/>
+<entry key="files.charset">UTF-8</entry>
+<entry key="solr.search.queryType">/dismax</entry>
+<entry key="executor.optimizeExecutor">ondemand</entry>
+<entry key="solr.load.queriesperminute">60</entry>
+<entry key="test.testProperty">changedPropertyValue</entry>
+<entry key="solr.load.insertsperminute"/>
+<entry key="solr.testTime">1</entry>
+<entry key="solr.deletesFiles"/>
+<entry key="solr.queriesFiles">queriesTest.txt</entry>
+<entry key="executor.updateExecutor">random</entry>
+<entry key="solr.searchUrl">http://127.0.0.1:8984/solr</entry>
+<entry key="solr.updatesFiles">updatesTest.txt</entry>
+<entry key="solr.load.updatesperminute">60</entry>
+<entry key="solr.addUrl">http://127.0.0.1:8984/solr</entry>
+<entry key="solr.documentFieldsFile">ext.txt</entry>
+<entry key="solr.documentIdField">id</entry>
+<entry key="statistic.configuration.filePath">statistics-config.xml</entry>
+<entry key="solr.insertsFiles"/>
+</properties>
