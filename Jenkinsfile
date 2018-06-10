@@ -6,10 +6,10 @@ node('buildciserver'){
         checkout scm
     }
     stage('Build Development'){
-        when{
+        when {
             branch 'develop'
         }
-        steps{
+        steps {
             sh('mvn package')
         }
     }
