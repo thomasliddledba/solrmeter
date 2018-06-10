@@ -19,9 +19,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/tflobbe/solrmeter</url>
-		<developerConnection>scm:git:https://github.com/tflobbe/solrmeter.git</developerConnection>
-		<connection>scm:git:https://github.com/tflobbe/solrmeter.git</connection>
+		<url>https://github.com/thomasliddledba/solrmeter</url>
+		<developerConnection>scm:git:https://github.com/thomasliddledba/solrmeter.git</developerConnection>
+		<connection>scm:git:https://github.com/thomasliddledba/solrmeter.git</connection>
 	</scm>
 
 	<mailingLists>
@@ -36,7 +36,7 @@
 
 	<issueManagement>
 		<system>Github issues</system>
-		<url>https://github.com/tflobbe/solrmeter/issues</url>
+		<url>https://github.com/thomasliddledba/solrmeter/issues</url>
 	</issueManagement>
 
 	<organization>
@@ -63,6 +63,12 @@
 			<name>Emmanuel Espina</name>
 			<email>emmanuel.espina@plugtree.com</email>
 			<id>eespina</id>
+			<timezone>-3</timezone>
+		</developer>
+		<developer>
+			<name>Thomas Liddle</name>
+			<email>tliddle30@gmail.com</email>
+			<id>thomasliddledba</id>
 			<timezone>-3</timezone>
 		</developer>
 	</developers>
