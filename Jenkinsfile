@@ -1,9 +1,9 @@
 node('buildciserver'){
     stage('Clean Workspace'){
-        deletedir
+        deleteDir()
     }
     stage('Checkout SCM'){
-        checkout SCM
+        checkout scm
     }
     stage('Build'){
         sh('mvn package')
