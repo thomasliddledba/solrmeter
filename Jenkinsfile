@@ -5,7 +5,15 @@ node('buildciserver'){
     stage('Checkout SCM'){
         checkout scm
     }
-    stage('Build'){
-        sh('mvn package')
+    stage('Build Development'){
+        when{
+            branch 'develop'
+        }
+        steps{
+            sh('mvn package')
+        }
+    }
+    stage('Build Production'){
+        echo "Skipping for now"
     }
 }// End of Node
