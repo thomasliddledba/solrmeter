@@ -28,5 +28,5 @@ pipeline {
                 sh('mvn package')
             }
         }
-    }
+    }// End of Stages
 }// End Pipeline
