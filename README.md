@@ -34,8 +34,8 @@ With SolrMeter you can simulate your work load over solr index and retrieve stat
 
 ### Requirements
 
-* Apache Maven 3.5.3
-* Java version: 1.8 - JRE/JDK
+- Apache Maven 3.5.3
+- Java version: 1.8 - JRE/JDK
 
 ### HOWTO Compile
 
